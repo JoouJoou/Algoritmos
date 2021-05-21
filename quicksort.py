@@ -21,6 +21,3 @@ def quicksort(lista, primeiro, ultimo):
         quicksort(lista, rightmark+1, ultimo)
 def quicksorthelper(lista):
     quicksort(lista, 0, len(lista)-1)
-lista = [10,5, 11, 6, 5, 4, 3, 2, 1]
-quicksorthelper(lista)
-print(lista)
