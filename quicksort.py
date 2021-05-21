@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 def quicksort(lista, primeiro, ultimo):
     if primeiro < ultimo:
         pivo = lista[primeiro]

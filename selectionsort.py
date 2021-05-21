@@ -8,6 +8,3 @@ def selectionsort(lista):
                 lista[elemento] = lista[posicaodomin]
                 lista[posicaodomin] = temp
     return lista
-
-lista = [10, 12, 1, 4, 3, 2]
-print(selectionsort(lista))

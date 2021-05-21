@@ -7,6 +7,3 @@ def bubblesort(lista):
                 lista[elemento] = lista[elemento+1]
                 lista[elemento+1] = temp
     return lista
-
-lista = [50, 3, 10, 22, 31, 12, 54, 48, 1, 21, 2]
-print(bubblesort(lista))

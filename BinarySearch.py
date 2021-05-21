@@ -15,9 +15,3 @@ def buscabinaria(valor, lista):
             count+= 1
             menor = meio + 1
     return count
-
-search_input = [int(i) for i in input("").split()]
-range_list = search_input.pop(0)
-main_list = [search_input.pop(0) for e in range(range_list)]
-for test in search_input:
-    print(buscabinaria(test, main_list), end=' ')
